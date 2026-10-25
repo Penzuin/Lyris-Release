@@ -1,0 +1,30 @@
+// Lyris Voxel: items (see data/README.md). Read once at start-up; no recompile.
+//
+// Each entry either ADDS an item (a new key) or CHANGES a built-in one (an
+// existing key: only the fields given change). Built-in keys: flint, stick,
+// plant_fibre, flint_axe_head, flint_blade, flint_shovel_head, flint_pick_head,
+// flint_axe, flint_knife, flint_shovel, flint_pickaxe, axe (the Woodcutter's
+// Axe), and copper_/bronze_/iron_/steel_ axe, pickaxe, shovel (no iron_axe);
+// Phase I (items_phase1.cpp): foods (blueberries, mushroom, flatbread ...),
+// cordage, flint_spear(_point), flint_hoe(_blade), emmer_grain, wild_lentils,
+// flour, pots, crucibles, moulds, bricks, charcoal, copper_/bronze_ *_head.
+//
+// Comments like these and a trailing comma are allowed.
+{
+    "items": [
+        // A changed built-in, e.g. a tougher flint axe:
+        // { "key": "flint_axe", "durability": 80 },
+
+        // A new item with a cuboid model (sixteenths of a block, handle
+        // frame: y up the handle, the working edge toward +x):
+        // {
+        //     "key": "obsidian_shard", "name": "Obsidian Shard", "kind": "material", "stack": 64,
+        //     "note": "Volcanic glass. Knaps to the sharpest edge of all.",
+        //     "colour": "#3a3550",
+        //     "cuboids": [
+        //         { "from": [-3, -2, -1], "to": [3, 2, 1], "colour": "#3a3550" },
+        //         { "from": [-1, 2, -1], "to": [2, 4, 1], "colour": "#5a5478", "turn": 20 }
+        //     ]
+        // },
+    ]
+}

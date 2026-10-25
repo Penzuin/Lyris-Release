@@ -1,0 +1,11 @@
+// Lyris Voxel: changes to blocks (see data/README.md). Read once at start-up.
+//
+// Keys are block ids (/give names, the --blocks table). Only the fields
+// given change. "drops" replaces the block's built-in extra drops (its own
+// item still drops unless "dropSelf": false).
+{
+    "blocks": {
+        // "gravel": { "drops": [ { "item": "flint", "chance": 0.2, "instead": true } ] },
+        // "tall_grass": { "drops": [ { "item": "plant_fibre", "chance": 0.5, "tool": "knife", "toolChance": 1, "toolMax": 2 } ] },
+    }
+}
