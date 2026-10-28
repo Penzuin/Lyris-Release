@@ -35,6 +35,7 @@ are changed in blocks.json, not here.
 | `note` | one line about it | none |
 | `kind` | `material`, `part` or `tool` | `material` |
 | `stack` | 1-999 in one slot (tools are always 1) | 64 |
+| `bag` | 0-16: worn in a bag slot it gives this many slots (0 = not a bag) | 0 |
 | `durability` | uses before it breaks, 0 = never | 0 |
 | `tool` | `axe`, `knife`, `shovel`, `pickaxe`, `hammer`, `hoe`, `spear` | none |
 | `tier` | 0-5 or `hand`, `flint` (= `stone`), `copper`, `bronze`, `iron`, `steel` | 0 |
