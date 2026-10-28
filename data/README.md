@@ -40,6 +40,7 @@ are changed in blocks.json, not here.
 | `tier` | 0-5 or `hand`, `flint` (= `stone`), `copper`, `bronze`, `iron`, `steel` | 0 |
 | `speed` | how many times faster it works its own blocks (axe: wood; knife: leaves and plants; shovel: earth, sand, snow; pickaxe and hammer: stone, crystal, ice) | 1 |
 | `hold` | `block` (held out), `small` (in the palm), `tool` (gripped by the handle) | `small`, `tool` for tools |
+| `grasp` | how the first-person hand closes: `haft`, `shovel`, `knife`, `spear` (tool grips), `rod` (fist round a stick), `bunch` (fist round stems), `pinch` (thumb and index), `wrap` (fist round a lump), `hang` (hooked fingers, item hanging), `carry` (palm up), `drill` | `auto` (picked from the key, tool and kind) |
 | `places` | a block id: using it places that block (seeds, say) | nothing |
 | `model` | a built-in model by name: the built-in keys above, `lump`, or `crafted:<key>` for the crafting framework's version of stick, plant_fibre, flint, flint_axe_head, flint_blade, flint_axe, flint_knife | `lump` if no cuboids |
 | `cuboids` | a list of boxes, see below | none |
