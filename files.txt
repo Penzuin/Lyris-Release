@@ -48,6 +48,8 @@ data/sound/drink_2.mp3
 data/sound/eat_1.mp3
 data/sound/eat_2.mp3
 data/sound/eat_3.mp3
+data/sound/hit_flesh_1.mp3
+data/sound/hit_flesh_2.mp3
 data/sound/hit_stone_1.mp3
 data/sound/hit_stone_2.mp3
 data/sound/hit_stone_3.mp3
@@ -81,6 +83,17 @@ data/sound/sew_2.mp3
 data/sound/sew_3.mp3
 data/sound/sizzle_1.mp3
 data/sound/sizzle_2.mp3
+data/sound/step_hoof_1.mp3
+data/sound/step_hoof_2.mp3
+data/sound/step_hoof_3.mp3
+data/sound/step_paw_1.mp3
+data/sound/step_paw_2.mp3
+data/sound/step_paw_3.mp3
+data/sound/swing_1.mp3
+data/sound/swing_2.mp3
+data/sound/swing_3.mp3
 data/sound/ui_click_1.mp3
 data/sound/ui_click_2.mp3
+data/sound/waterfall_1.wav
+data/sound/waterfall_2.wav
 data/weapons.json
