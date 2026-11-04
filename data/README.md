@@ -104,3 +104,13 @@ up to two); sticks from twigs and thin branches (always) and leaves (6%).
 
 New blocks still need code (the block list is compiled in, and every block
 has painted textures): ask in a session.
+
+## weapons.json
+
+How held things fight (src/combat.h, docs/design/combat.md, after Minecraft's
+Better Combat mod): each weapon is a reach and a combo of attacks, each with
+its own motion, hit shape (a stab box, a flat sweep or an upright chop), arc,
+length, damage, reach and how much it slows your feet. The file adds presets
+or replaces built-in ones (fist, knife, axe, pick, shovel, spear, mace,
+sword) and maps tool types ("tools") and item keys ("items") to them. The
+fields are described at the top of the file.

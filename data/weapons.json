@@ -1,0 +1,36 @@
+// Lyris Voxel: how weapons fight (src/combat.h, docs/design/combat.md), after
+// Minecraft's Better Combat. Read once at start-up; no recompile.
+//
+// Built-in presets (combat.cpp DEFAULTS): fist, knife, axe, pick, shovel,
+// spear, mace, sword. Anything here ADDS a preset or REPLACES one of the same
+// name, and "tools" / "items" say which preset a tool type or an item uses.
+// An entry is a preset's name, or an object with an optional "parent" whose
+// fields it changes ("attacks" replaces the parent's list whole).
+//
+// A weapon:  "reach" (blocks from the eye), "damage" (leave it out to use the
+//            item's own melee damage), "attacks" (the combo, played in turn).
+// An attack: "motion"  punch | chop | pick | scoop | slash | thrust
+//            "mirror"  true: a backhand, the swing from the other side
+//            "hitbox"  forward_box (a stab) | horizontal_plane (a sweep) |
+//                      vertical_plane (a chop); "angle" the arc in degrees
+//            "seconds" the whole swing; the blow lands 44% of the way in
+//            "damage"  x the weapon's; "range" x its reach
+//            "move"    the feet's speed while swinging (x); "hunger" per swing
+//
+// Comments like these and a trailing comma are allowed.
+{
+    "presets": {
+        // e.g. a long two-handed blade, built on the sword:
+        // "greatsword": { "parent": "sword", "reach": 4.0, "damage": 13, "attacks": [
+        //     { "motion": "slash", "hitbox": "horizontal_plane", "angle": 150, "seconds": 0.7, "move": 0.4, "hunger": 0.2 },
+        //     { "motion": "chop", "hitbox": "vertical_plane", "angle": 30, "seconds": 0.9, "damage": 1.5, "move": 0.3, "hunger": 0.3 },
+        // ] },
+    },
+    "tools": {
+        // "hoe": "shovel",
+    },
+    "items": {
+        "iron_spear": "spear",
+        // "iron_sword": { "parent": "sword", "reach": 3.8 },
+    },
+}

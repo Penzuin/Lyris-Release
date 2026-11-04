@@ -1,2 +1,3 @@
 data/blocks.json
 data/items.json
+data/weapons.json
