@@ -96,4 +96,7 @@ data/sound/ui_click_1.mp3
 data/sound/ui_click_2.mp3
 data/sound/waterfall_1.wav
 data/sound/waterfall_2.wav
+data/sound/wave_crash_1.mp3
+data/sound/wave_crash_2.mp3
+data/sound/wave_crash_3.mp3
 data/weapons.json
