@@ -45,16 +45,19 @@ data/sound/drill_2.mp3
 data/sound/drill_3.mp3
 data/sound/drink_1.mp3
 data/sound/drink_2.mp3
+data/sound/drink_3.mp3
 data/sound/eat_1.mp3
 data/sound/eat_2.mp3
 data/sound/eat_3.mp3
 data/sound/hit_flesh_1.mp3
 data/sound/hit_flesh_2.mp3
+data/sound/hit_flesh_3.mp3
 data/sound/hit_stone_1.mp3
 data/sound/hit_stone_2.mp3
 data/sound/hit_stone_3.mp3
 data/sound/hit_wood_1.mp3
 data/sound/hit_wood_2.mp3
+data/sound/hit_wood_3.mp3
 data/sound/knap_1.mp3
 data/sound/knap_2.mp3
 data/sound/knap_3.mp3
@@ -83,6 +86,7 @@ data/sound/sew_2.mp3
 data/sound/sew_3.mp3
 data/sound/sizzle_1.mp3
 data/sound/sizzle_2.mp3
+data/sound/sizzle_3.mp3
 data/sound/step_hoof_1.mp3
 data/sound/step_hoof_2.mp3
 data/sound/step_hoof_3.mp3
