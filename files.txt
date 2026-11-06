@@ -1,4 +1,9 @@
 data/blocks.json
+data/characters/ranger_hourglass.lrc
+data/characters/ranger_inverted_triangle.lrc
+data/characters/ranger_pear.lrc
+data/characters/ranger_rectangle.lrc
+data/characters/ranger_round.lrc
 data/items.json
 data/sound/break_1.mp3
 data/sound/break_2.mp3
