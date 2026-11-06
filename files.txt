@@ -1,4 +1,9 @@
 data/blocks.json
+data/characters/ranger_hair_cozy_waves.lrc
+data/characters/ranger_hair_curly_puff.lrc
+data/characters/ranger_hair_messy_bun.lrc
+data/characters/ranger_hair_soft_bob.lrc
+data/characters/ranger_hair_twin_braids.lrc
 data/characters/ranger_hourglass.lrc
 data/characters/ranger_inverted_triangle.lrc
 data/characters/ranger_pear.lrc
