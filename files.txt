@@ -1,7 +1,11 @@
 data/blocks.json
+data/characters/ranger_hair_braided_crown.lrc
 data/characters/ranger_hair_cozy_waves.lrc
 data/characters/ranger_hair_curly_puff.lrc
+data/characters/ranger_hair_half_up.lrc
+data/characters/ranger_hair_low_ponytail.lrc
 data/characters/ranger_hair_messy_bun.lrc
+data/characters/ranger_hair_side_braid.lrc
 data/characters/ranger_hair_soft_bob.lrc
 data/characters/ranger_hair_twin_braids.lrc
 data/characters/ranger_hourglass.lrc
