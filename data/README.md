@@ -22,9 +22,8 @@ draws every loose item's icon on one sheet and exits.
 An entry with a **built-in key** changes only the fields it gives. Built-in
 keys: `flint`, `stick`, `plant_fibre`, `flint_axe_head`,
 `flint_blade`, `flint_shovel_head`, `flint_pick_head`, `flint_axe`,
-`flint_knife`, `flint_shovel`, `flint_pickaxe`, `axe` (the Woodcutter's
-Axe, iron tier), and the forged tools `copper_`, `bronze_`, `iron_` and
-`steel_` + `axe`, `pickaxe`, `shovel` (no `iron_axe`: that is `axe`). An entry with a **new key**
+`flint_knife`, `flint_shovel`, `flint_pickaxe` (the metal tools went with
+the later ages, Nov 10 2026). An entry with a **new key**
 adds an item. Blocks are items too (their key is the block id), but they
 are changed in blocks.json, not here.
 
